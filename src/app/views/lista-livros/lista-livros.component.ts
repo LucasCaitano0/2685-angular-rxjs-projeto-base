@@ -25,7 +25,6 @@ export class ListaLivrosComponent implements OnDestroy{
       error: erro => console.error(erro),
       complete: () => console.log("Observable completado")
     }
-    
     )
   }
 
