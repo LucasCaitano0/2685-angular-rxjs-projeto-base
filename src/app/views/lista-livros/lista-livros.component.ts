@@ -22,8 +22,7 @@ export class ListaLivrosComponent implements OnDestroy{
       next: (items) => {
         this.listaLivros = this.livrosResultadoaParaLivros(items)
       },
-      error: erro => console.error(erro),
-      complete: () => console.log("Observable completado")
+      error: erro => console.error(erro)
     }
     )
   }

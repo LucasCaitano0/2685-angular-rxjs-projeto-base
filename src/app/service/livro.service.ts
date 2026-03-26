@@ -20,7 +20,6 @@ export class LivroService {
       tap(retornoAPI => console.log('fluxo do tap', retornoAPI)),
       map(resultado => resultado.items),
       tap(resultado => console.log('Fluxo após o map', resultado))
-      
     )
   }
 }
