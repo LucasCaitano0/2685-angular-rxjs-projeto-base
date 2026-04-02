@@ -9,7 +9,7 @@ import { map, tap } from 'rxjs/operators';
 })
 export class LivroService {
 
-  private readonly API ='https://www.googleapis.com/books/v1/volumes'
+  private readonly API ='https://www.googleapis.com/books/v1/volume'
   constructor(private http: HttpClient) { }
 
   buscar(valorDigitado: string): 
